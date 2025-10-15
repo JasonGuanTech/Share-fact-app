@@ -23,7 +23,7 @@ function App() {
       }
       getFact();
     },
-    [currentCategory]
+    [currentCategory] // Only the currentCategory change, it will call the async functuion
   );
   return (
     <>
