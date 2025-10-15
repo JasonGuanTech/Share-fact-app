@@ -8,7 +8,11 @@
 
 ## Overview
 
-Share Fact is an interactive platform where users can **share interesting facts**, express their opinions, and engage with others through likes and discussions. The platform offers a **clean, responsive UI** and smooth **user interactions** that make exploring and contributing to facts enjoyable.
+Share Fact is an interactive platform where users can **share interesting facts**, express their opinions.
+
+Users can engage with each fact through fun and expressive voting options — 👍 Interesting, 🤯 Mind-blowing, and ⛔ False.
+This intuitive voting system allows everyone to instantly see the community’s overall sentiment toward each fact.
+If a fact receives significantly more “False” votes than positive ones, the app automatically flags it as Disputed, visually highlighting that the community questions its credibility.
 
 Built with the **React** frontend framework and powered by **Supabase** as the backend database API, this app ensures real-time data updates and seamless communication between the client and the server.
 
